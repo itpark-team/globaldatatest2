@@ -1,17 +1,23 @@
 <template>
   <ComponentOne/>
   <ComponentTwo/>
+  <ComponentThree/>
+  <ComponentFour/>
 </template>
 
 <script>
 import ComponentOne from './components/ComponentOne.vue'
 import ComponentTwo from './components/ComponentTwo.vue'
+import ComponentThree from './components/ComponentThree.vue'
+import ComponentFour from './components/ComponentFour.vue'
 
 export default {
   name: 'App',
   components: {
     ComponentOne,
-    ComponentTwo
+    ComponentTwo,
+    ComponentThree,
+    ComponentFour
   }
 }
 </script>
